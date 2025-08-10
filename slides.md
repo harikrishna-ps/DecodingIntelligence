@@ -42,6 +42,20 @@ contextMenu: false
 -->
 
 ---
+layout: center
+class: text-center
+---
+
+# What is Artificial Intelligence (AI)?
+
+<div class="mt-12">
+  <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop" 
+       alt="AI and Technology" 
+       class="rounded-lg shadow-xl mx-auto"
+       style="max-width: 70%; height: auto;">
+</div>
+
+---
 layout: default
 ---
 
@@ -138,6 +152,20 @@ ML is a <span class="text-green-400 font-semibold">subset of AI</span> where mac
 </div>
 
 </div>
+</div>
+
+---
+layout: center
+class: text-center
+---
+
+# AI, ML, DL & Generative AI
+
+<div class="mt-12">
+  <img src="./ai-ml-dl-and-generative-ai-face-off.png" 
+       alt="AI ML DL and Generative AI Face Off" 
+       class="rounded-lg shadow-xl mx-auto"
+       style="max-width: 50%; height: auto;">
 </div>
 
 ---
@@ -370,6 +398,163 @@ layout: default
 
 ---
 layout: default
+---
+
+# Supervised Learning
+<div class="text-base opacity-80 mb-6">Learning with a Teacher - Labeled Data</div>
+
+<div class="grid grid-cols-2 gap-6">
+  <div>
+    <h3 class="text-xl font-semibold mb-4 text-blue-600 dark:text-blue-400">How It Works</h3>
+    <div class="space-y-3 text-sm">
+      <div class="bg-blue-50 dark:bg-blue-900/20 p-3 rounded-lg">
+        <h4 class="font-semibold mb-2">📚 Training Process</h4>
+        <ul class="space-y-1 opacity-80">
+          <li>• Input data with known outputs</li>
+          <li>• Model learns input → output mapping</li>
+          <li>• Makes predictions on new data</li>
+        </ul>
+      </div>
+             <div class="bg-green-50 dark:bg-green-900/20 p-3 rounded-lg">
+         <h4 class="font-semibold mb-2">🎯 Common Algorithms</h4>
+         <ul class="space-y-1 opacity-80">
+           <li>• Linear Regression</li>
+           <li>• Logistic Regression</li>
+           <li>• Decision Trees</li>
+           <li>• Random Forest</li>
+           <li>• Support Vector Machines</li>
+         </ul>
+       </div>
+    </div>
+  </div>
+  <div class="flex flex-col items-center">
+    <img src="https://www.kdnuggets.com/wp-content/uploads/mehreen_understanding_supervised_learning_theory_overview_6.png?w=600&h=400&fit=crop" 
+         alt="Supervised Learning Diagram" 
+         class="rounded-lg shadow-lg mb-4"
+         style="max-width: 100%; height: auto;">
+    <div class="text-center text-sm opacity-70">
+      <p><strong>Input Data</strong> → <strong>Model</strong> → <strong>Predicted Output</strong></p>
+      <p class="mt-2">Training with labeled examples</p>
+    </div>
+  </div>
+</div>
+
+---
+layout: default
+---
+
+# Unsupervised Learning
+<div class="text-base opacity-80 mb-6">Learning Without a Teacher - Finding Hidden Patterns</div>
+
+<div class="grid grid-cols-2 gap-6">
+  <div>
+    <h3 class="text-xl font-semibold mb-4 text-green-600 dark:text-green-400">How It Works</h3>
+    <div class="space-y-3 text-sm">
+      <div class="bg-green-50 dark:bg-green-900/20 p-3 rounded-lg">
+        <h4 class="font-semibold mb-2">🔍 Discovery Process</h4>
+        <ul class="space-y-1 opacity-80">
+          <li>• No predefined answers provided</li>
+          <li>• Model finds natural groupings</li>
+          <li>• Discovers hidden structures</li>
+        </ul>
+      </div>
+             <div class="bg-blue-50 dark:bg-blue-900/20 p-3 rounded-lg">
+         <h4 class="font-semibold mb-2">🎯 Common Algorithms</h4>
+         <ul class="space-y-1 opacity-80">
+           <li>• K-Means Clustering</li>
+           <li>• Hierarchical Clustering</li>
+           <li>• Principal Component Analysis</li>
+           <li>• DBSCAN</li>
+           <li>• Autoencoders</li>
+         </ul>
+       </div>
+    </div>
+  </div>
+  <div class="flex flex-col items-center">
+    <img src="https://www.onemodel.co/hubfs/Imported_Blog_Media/main-qimg-b6846724daf2af284a1137c1a8e72f56.png?w=600&h=400&fit=crop" 
+         alt="Unsupervised Learning Diagram" 
+         class="rounded-lg shadow-lg mb-4"
+         style="max-width: 100%; height: auto;">
+    <div class="text-center text-sm opacity-70">
+      <p><strong>Raw Data</strong> → <strong>Pattern Discovery</strong> → <strong>Natural Groups</strong></p>
+      <p class="mt-2">Finding hidden structures in data</p>
+    </div>
+  </div>
+</div>
+
+---
+layout: default
+---
+
+# Reinforcement Learning
+<div class="text-base opacity-80 mb-6">Learning Through Trial and Error - Reward-Based Learning</div>
+
+<div class="grid grid-cols-2 gap-6">
+  <div>
+    <h3 class="text-xl font-semibold mb-4 text-yellow-600 dark:text-yellow-400">How It Works</h3>
+    <div class="space-y-3 text-sm">
+      <div class="bg-yellow-50 dark:bg-yellow-900/20 p-3 rounded-lg">
+        <h4 class="font-semibold mb-2">🎮 Learning Process</h4>
+        <ul class="space-y-1 opacity-80">
+          <li>• Agent takes actions in environment</li>
+          <li>• Receives rewards/penalties</li>
+          <li>• Learns optimal strategy over time</li>
+        </ul>
+      </div>
+             <div class="bg-orange-50 dark:bg-orange-900/20 p-3 rounded-lg">
+         <h4 class="font-semibold mb-2">🎯 Common Algorithms</h4>
+         <ul class="space-y-1 opacity-80">
+           <li>• Q-Learning</li>
+           <li>• Deep Q-Network (DQN)</li>
+           <li>• Policy Gradient Methods</li>
+           <li>• Actor-Critic Methods</li>
+           <li>• Monte Carlo Tree Search</li>
+         </ul>
+       </div>
+    </div>
+  </div>
+  <div class="flex flex-col items-center">
+    <img src="https://k21academy.com/wp-content/uploads/2020/12/reinforcement-learning-method.png" 
+         alt="Lunar Lander Reinforcement Learning" 
+         class="rounded-lg shadow-lg mb-4"
+         style="max-width: 100%; height: auto;">
+    <div class="text-center text-sm opacity-70">
+      <p><strong>Action</strong> → <strong>Environment</strong> → <strong>Reward</strong></p>
+      <p class="mt-2">Learning optimal behavior through experience</p>
+    </div>
+  </div>
+</div>
+
+---
+layout: default
+---
+
+# Frozen Lake Environment
+
+<div class="text-base opacity-80 mb-6">A Classic Reinforcement Learning Challenge</div>
+
+Frozen Lake represents a fundamental reinforcement learning environment where an AI agent navigates through a grid-based world, learning optimal strategies to reach a target destination while avoiding obstacles.
+
+<div class="grid grid-cols-2 gap-8 mt-8">
+  <div class="text-center">
+    <h3 class="text-lg font-semibold mb-3 text-blue-600">Environment Overview</h3>
+    <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*QVMC98MU5aE5dgGCT_IvLQ.gif" 
+         alt="Frozen Lake Environment" 
+         class="rounded-lg shadow-lg mx-auto"
+         style="max-width: 50%; height: auto;">
+    <p class="text-sm opacity-70 mt-2">Grid-based navigation challenge</p>
+  </div>
+  
+  <div class="text-center">
+    <h3 class="text-lg font-semibold mb-3 text-green-600">AI Agent Learning</h3>
+    <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*oUW1prwRzihD4ebeS7iu7w.gif" 
+         alt="AI Learning Process" 
+         class="rounded-lg shadow-lg mx-auto"
+         style="max-width: 50%; height: auto;">
+    <p class="text-sm opacity-70 mt-2">Agent learning optimal path</p>
+  </div>
+</div>
+
 ---
 
 # Deep Learning Revolution

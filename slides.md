@@ -632,45 +632,256 @@ Frozen Lake represents a fundamental reinforcement learning environment where an
 </div>
 
 ---
-layout: default
----
 
-# Generative AI Era
-<div class="text-base opacity-80 mb-4">AI That Creates Original Content</div>
+# Convolutional Neural Networks (CNNs)
+<div class="text-base opacity-80 mb-4">🔍 Image & Video Processing</div>
 
 <div class="grid grid-cols-2 gap-4 text-sm">
 <div>
 
+## What Are CNNs?
+- <span class="font-semibold">Designed to work with images and visual patterns</span>
+- <span class="font-semibold">Uses "filters" to detect shapes, edges, colors</span>
+- <span class="font-semibold">Translation invariant</span> recognition
+
+</div>
+<div>
+
+## Key Applications
+<div class="mt-1 space-y-1">
+  <div class="bg-blue-50 dark:bg-blue-900/20 p-1 rounded text-xs">
+    <h4 class="font-semibold text-blue-600 dark:text-blue-400 text-xs">📸 Computer Vision</h4>
+    <p class="opacity-80">Image classification, object detection, face recognition</p>
+  </div>
+  <div class="bg-green-50 dark:bg-green-900/20 p-1 rounded text-xs">
+    <h4 class="font-semibold text-green-600 dark:text-green-400 text-xs">🚗 Autonomous Vehicles</h4>
+    <p class="opacity-80">Lane detection, traffic signs, pedestrian detection</p>
+  </div>
+  <div class="bg-purple-50 dark:bg-purple-900/20 p-1 rounded text-xs">
+    <h4 class="font-semibold text-purple-600 dark:text-purple-400 text-xs">🏥 Medical Imaging</h4>
+    <p class="opacity-80">Tumor detection, disease diagnosis, X-ray analysis</p>
+  </div>
+</div>
+
+
+
+
+
+</div>
+</div>
+
+---
+
+# Recurrent Neural Networks (RNNs)
+<div class="text-base opacity-80 mb-4">🔄 Sequential Data Processing</div>
+
+<div class="grid grid-cols-2 gap-4 text-sm">
+<div>
+
+## What Are RNNs?
+- <span class="font-semibold">Designed for sequence data (where order matters)</span>
+- <span class="font-semibold">Has "memory" of past steps to process the next one</span>
+- <span class="font-semibold">Hidden state</span> carries information through time
+
+</div>
+<div>
+
+## Key Applications
+<div class="mt-1 space-y-1">
+  <div class="bg-green-50 dark:bg-green-900/20 p-1 rounded text-xs">
+    <h4 class="font-semibold text-green-600 dark:text-green-400 text-xs">🎤 Speech & Audio</h4>
+    <p class="opacity-80">Speech-to-text, voice recognition, music generation</p>
+  </div>
+  <div class="bg-blue-50 dark:bg-blue-900/20 p-1 rounded text-xs">
+    <h4 class="font-semibold text-blue-600 dark:text-blue-400 text-xs">📝 Natural Language</h4>
+    <p class="opacity-80">Language modeling, machine translation, text generation</p>
+  </div>
+  <div class="bg-purple-50 dark:bg-purple-900/20 p-1 rounded text-xs">
+    <h4 class="font-semibold text-purple-600 dark:text-purple-400 text-xs">📊 Time Series</h4>
+    <p class="opacity-80">Stock forecasting, weather prediction, sensor data</p>
+  </div>
+</div>
+
+
+
+
+
+</div>
+</div>
+
+---
+
+# Long Short-Term Memory (LSTM)
+<div class="text-base opacity-80 mb-4">🧠 Advanced Memory Networks</div>
+
+<div class="grid grid-cols-2 gap-4 text-sm">
+<div>
+
+## What is LSTM?
+- <span class="font-semibold">Special RNN types that remember things for longer</span>
+- <span class="font-semibold">Avoid forgetting important info</span> over long sequences
+
+</div>
+<div>
+
+## Key Applications
+<div class="mt-1 space-y-1">
+  <div class="bg-green-50 dark:bg-green-900/20 p-1 rounded text-xs">
+    <h4 class="font-semibold text-green-600 dark:text-green-400 text-xs">🗣️ Language Processing</h4>
+    <p class="opacity-80">Language translation, speech recognition, text summarization</p>
+  </div>
+  <div class="bg-blue-50 dark:bg-blue-900/20 p-1 rounded text-xs">
+    <h4 class="font-semibold text-blue-600 dark:text-blue-400 text-xs">📊 Time Series</h4>
+    <p class="opacity-80">Stock forecasting, weather prediction, sensor data analysis</p>
+  </div>
+  <div class="bg-purple-50 dark:bg-purple-900/20 p-1 rounded text-xs">
+    <h4 class="font-semibold text-purple-600 dark:text-purple-400 text-xs">🎵 Audio Processing</h4>
+    <p class="opacity-80">Music generation, noise reduction, audio classification</p>
+  </div>
+</div>
+
+
+
+
+</div>
+</div>
+
+---
+
+# Transformer Networks
+<div class="text-base opacity-80 mb-4">🧠 Attention-Based Learning</div>
+
+<div class="grid grid-cols-2 gap-4 text-sm">
+<div>
+
+## What Are Transformers?
+- <span class="font-semibold">Attention mechanism</span> - focus on relevant parts
+- <span class="font-semibold">Parallel processing</span> - no sequential dependencies
+- <span class="font-semibold">Self-attention</span> - understand relationships
+
+</div>
+<div>
+
+## Key Applications
+<div class="mt-2 space-y-2">
+  <div class="bg-purple-50 dark:bg-purple-900/20 p-2 rounded-lg">
+    <h4 class="font-semibold text-purple-600 dark:text-purple-400 mb-1 text-xs">🤖 Large Language Models</h4>
+    <p class="text-xs opacity-80">GPT, BERT, T5, Claude, LLaMA</p>
+  </div>
+  <div class="bg-blue-50 dark:bg-blue-900/20 p-2 rounded-lg">
+    <h4 class="font-semibold text-blue-600 dark:text-blue-400 mb-1 text-xs">🌐 Multimodal AI</h4>
+    <p class="text-xs opacity-80">Text-to-image, video understanding, cross-modal translation</p>
+  </div>
+  <div class="bg-green-50 dark:bg-green-900/20 p-2 rounded-lg">
+    <h4 class="font-semibold text-green-600 dark:text-green-400 mb-1 text-xs">💬 Conversational AI</h4>
+    <p class="text-xs opacity-80">ChatGPT, customer service, virtual assistants</p>
+  </div>
+</div>
+
+
+
+
+</div>
+</div>
+
+---
+layout: default
+---
+
+# Generative AI Era
+<div class="text-base opacity-80 mb-4">The Revolution of AI-Powered Content Creation</div>
+
+<div class="grid grid-cols-2 gap-6 text-sm">
+<div>
+
 ## What is Generative AI?
-AI systems that can <b>create new content</b> rather than just analyze existing data
+AI systems that can <b>create original, human-like content</b> across multiple modalities, revolutionizing how we interact with technology
 
 ### Key Capabilities:
-- 🎨 <b>Generate images</b> from text descriptions
-- ✍️ <b>Write articles</b> and stories
-- 💻 <b>Create code</b> in multiple languages  
-- 🎵 <b>Compose music</b> and audio
-- 🎬 <b>Produce videos</b> and animations
+- 🎨 <b>Create Images</b> from text descriptions
+- ✍️ <b>Write Text</b> like articles and stories
+- 💻 <b>Generate Code</b> in different programming languages
+- 🎵 <b>Make Music</b> and audio content
+- 🎬 <b>Produce Videos</b> from simple prompts
+- 🔬 <b>Help Research</b> and scientific work
+
+
 
 </div>
 <div>
 
 ## How It Works
-<div class="mt-2 p-2 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 rounded-lg">
-  <p class="text-xs leading-relaxed">
-    Uses <b>Large Language Models</b> (LLMs) trained on massive datasets to understand patterns and generate human-like responses
-  </p>
+<div class="space-y-3">
+  <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 p-3 rounded-lg">
+    <h4 class="font-semibold text-blue-600 dark:text-blue-400 mb-1 text-xs">🧠 Core Technology</h4>
+    <p class="text-xs leading-relaxed opacity-80">
+      Uses <b>Large Language Models</b> (LLMs) and <b>Diffusion Models</b> trained on massive datasets to understand patterns and generate human-like responses
+    </p>
+  </div>
+  
+  <div class="bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 p-3 rounded-lg">
+    <h4 class="font-semibold text-green-600 dark:text-green-400 mb-1 text-xs">🚀 Revolutionary Impact</h4>
+    <ul class="text-xs space-y-0.5 opacity-80">
+      <li>• Democratization of creative tools</li>
+      <li>• 10x faster content production</li>
+      <li>• Multilingual content generation</li>
+      <li>• Personalized experiences at scale</li>
+    </ul>
+  </div>
+  
+
 </div>
 
-## Impact on Electronics
-<ul class="text-xs mt-2 opacity-80 list-disc list-inside">
-  <li>📱 <b>App development</b> automation</li>
-  <li>🔧 <b>Circuit design</b> assistance</li>
-  <li>📋 <b>Technical documentation</b> generation</li>
-  <li>🧪 <b>Rapid prototyping</b> of ideas</li>
-</ul>
+</div>
+</div>
+
+---
+layout: default
+---
+
+# Large Language Models (LLMs)
+<div class="text-base opacity-80 mb-4">The Foundation of Modern AI</div>
+
+<div class="grid grid-cols-2 gap-4 text-sm">
+<div>
+
+## What are LLMs?
+AI models trained on vast amounts of text data to understand and generate human-like language
+
+### Key Characteristics:
+- 📚 <b>Massive training data</b> (billions of parameters)
+- 🧠 <b>Context understanding</b> and reasoning
+- 🔄 <b>Transfer learning</b> across tasks
+- 💬 <b>Natural language</b> processing
+- 🎯 <b>Task adaptation</b> through prompting
+
+</div>
+<div>
+
+## Types & Applications
+- 🔤 <b>Text Generation</b>: Content creation, translation, code generation, creative writing
+- 💡 <b>Problem Solving</b>: Mathematical reasoning, logical analysis, decision support, research
+- 🤖 <b>Conversational AI</b>: Chatbots, virtual assistants, customer support, tutoring
+
+### Training Process:
+- <b>Pre-training</b> on diverse text corpora
+- <b>Fine-tuning</b> for specific tasks
+- <b>Reinforcement learning</b> from human feedback
+- <b>Continuous improvement</b> through updates
 
 </div>
 </div>
+
+---
+layout: default
+---
+
+# Generative AI in Action
+
+<div class="flex justify-center">
+  <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/0*C8PPJUkgB9aJNqBL.gif" alt="Generative AI demonstration" class="w-3/4 h-auto rounded-lg shadow-lg">
+</div>
+
 ---
 layout: default
 ---
@@ -678,35 +889,216 @@ layout: default
 # Generative AI: Popular Examples
 <div class="text-base opacity-80 mb-4">Famous Tools and Platforms</div>
 
+<div class="grid grid-cols-2 gap-2 text-sm">
+  <div class="space-y-1">
+    <div class="bg-green-50 dark:bg-green-900/20 p-1 rounded-lg">
+      <h4 class="font-semibold text-green-600 dark:text-green-400 mb-0.5 text-xs">💬 ChatGPT</h4>
+      <p class="text-xs opacity-80 leading-tight">Conversational AI for text generation, coding help, and problem-solving</p>
+      <p class="text-xs opacity-60 mt-0.5"><b>Model:</b> GPT-4, GPT-3.5</p>
+    </div>
+    <div class="bg-blue-50 dark:bg-blue-900/20 p-1 rounded-lg">
+      <h4 class="font-semibold text-blue-600 dark:text-blue-400 mb-0.5 text-xs">🎨 DALL-E & Midjourney</h4>
+      <p class="text-xs opacity-80 leading-tight">Create stunning images from text descriptions</p>
+      <p class="text-xs opacity-60 mt-0.5"><b>Model:</b> DALL-E 3, Midjourney v6</p>
+    </div>
+    <div class="bg-orange-50 dark:bg-orange-900/20 p-1 rounded-lg">
+      <h4 class="font-semibold text-orange-600 dark:text-orange-400 mb-0.5 text-xs">🤖 Anthropic Claude</h4>
+      <p class="text-xs opacity-80 leading-tight">Advanced conversational AI focused on safety and helpfulness</p>
+      <p class="text-xs opacity-60 mt-0.5"><b>Model:</b> Claude 3.5 Sonnet, Claude 3 Opus</p>
+    </div>
+  </div>
+  <div class="space-y-1">
+    <div class="bg-purple-50 dark:bg-purple-900/20 p-1 rounded-lg">
+      <h4 class="font-semibold text-purple-600 dark:text-purple-400 mb-0.5 text-xs">👨‍💻 GitHub Copilot</h4>
+      <p class="text-xs opacity-80 leading-tight">AI pair programmer that suggests code as you type</p>
+      <p class="text-xs opacity-60 mt-0.5"><b>Model:</b> OpenAI GPT models</p>
+    </div>
+    <div class="bg-cyan-50 dark:bg-cyan-900/20 p-1 rounded-lg">
+      <h4 class="font-semibold text-cyan-600 dark:text-cyan-400 mb-0.5 text-xs">🔎 Perplexity AI</h4>
+      <p class="text-xs opacity-80 leading-tight">AI-powered search and question answering assistant</p>
+      <p class="text-xs opacity-60 mt-0.5"><b>Model:</b> Claude 3.5, GPT-4, Mixtral</p>
+    </div>
+    <div class="bg-gray-50 dark:bg-green-900/20 p-1 rounded-lg">
+      <h4 class="font-semibold text-blue-600 dark:text-blue-400 mb-0.5 text-xs">🧠 DeepSeek</h4>
+      <p class="text-xs opacity-80 leading-tight">Open-source large language model for research and applications</p>
+      <p class="text-xs opacity-60 mt-0.5"><b>Model:</b> DeepSeek R1</p>
+    </div>
+  </div>
+</div>
+
+---
+layout: default
+---
+
+# Prompt Engineering
+<div class="text-base opacity-80 mb-4">The Art of Communicating with AI</div>
+
 <div class="grid grid-cols-2 gap-4 text-sm">
-  <div class="space-y-2">
-    <div class="bg-green-50 dark:bg-green-900/20 p-2 rounded-lg">
-      <h4 class="font-semibold text-green-600 dark:text-green-400 mb-1 text-xs">💬 ChatGPT</h4>
-      <p class="text-xs opacity-80">Conversational AI for text generation, coding help, and problem-solving</p>
-    </div>
-    <div class="bg-blue-50 dark:bg-blue-900/20 p-2 rounded-lg">
-      <h4 class="font-semibold text-blue-600 dark:text-blue-400 mb-1 text-xs">🎨 DALL-E & Midjourney</h4>
-      <p class="text-xs opacity-80">Create stunning images from text descriptions</p>
-    </div>
-    <div class="bg-orange-50 dark:bg-orange-900/20 p-2 rounded-lg">
-      <h4 class="font-semibold text-orange-600 dark:text-orange-400 mb-1 text-xs">🤖 Anthropic Claude</h4>
-      <p class="text-xs opacity-80">Advanced conversational AI focused on safety and helpfulness</p>
-    </div>
+<div>
+
+## What is Prompt Engineering?
+The practice of designing and optimizing inputs (prompts) to get the best possible outputs from AI models
+
+### Key Principles:
+- 🎯 <b>Be specific</b> and clear
+- 📝 <b>Provide context</b> and examples
+- 🔄 <b>Iterate and refine</b> prompts
+- ⚖️ <b>Balance detail</b> with conciseness
+- 🎨 <b>Use structured formats</b>
+
+</div>
+<div>
+
+## Common Techniques
+- 🎯 <b>Few-shot learning</b> with examples
+- 🧠 <b>Chain-of-thought</b> prompting
+- 👤 <b>Role-based</b> instructions
+- 📋 <b>Output formatting</b> specifications
+
+</div>
+</div>
+
+---
+layout: default
+---
+
+# Embeddings in GenAI
+<div class="text-base opacity-80 mb-4">Converting Text to Mathematical Representations</div>
+
+<div class="grid grid-cols-2 gap-4 text-sm">
+<div>
+
+## What are Embeddings?
+Numerical representations of text that capture semantic meaning, allowing AI models to understand relationships between words and concepts
+
+### Key Characteristics:
+- 🔢 <b>Vector format</b> - Multi-dimensional arrays
+- 🧠 <b>Semantic meaning</b> - Similar words have similar vectors
+- 📏 <b>Mathematical distance</b> - Measures word relationships
+- 🎯 <b>Context-aware</b> - Meaning changes with context
+
+</div>
+<div>
+
+## Applications & Benefits
+<div class="space-y-2 mt-2">
+  <div class="bg-blue-50 dark:bg-blue-900/20 p-2 rounded-lg">
+    <h4 class="font-semibold text-blue-600 dark:text-blue-400 mb-1 text-xs">🚀 Use Cases</h4>
+    <ul class="text-xs space-y-0.5 opacity-80">
+      <li>Semantic search & similarity</li>
+      <li>Recommendation systems</li>
+      <li>Text classification</li>
+      <li>RAG & knowledge retrieval</li>
+    </ul>
   </div>
-  <div class="space-y-2">
-    <div class="bg-purple-50 dark:bg-purple-900/20 p-2 rounded-lg">
-      <h4 class="font-semibold text-purple-600 dark:text-purple-400 mb-1 text-xs">👨‍💻 GitHub Copilot</h4>
-      <p class="text-xs opacity-80">AI pair programmer that suggests code as you type</p>
-    </div>
-    <div class="bg-cyan-50 dark:bg-cyan-900/20 p-2 rounded-lg">
-      <h4 class="font-semibold text-cyan-600 dark:text-cyan-400 mb-1 text-xs">🔎 Perplexity AI</h4>
-      <p class="text-xs opacity-80">AI-powered search and question answering assistant</p>
-    </div>
-    <div class="bg-gray-50 dark:bg-green-900/20 p-2 rounded-lg">
-      <h4 class="font-semibold text-blue-600 dark:text-blue-400 mb-1 text-xs">🧠 DeepSeek</h4>
-      <p class="text-xs opacity-80">Open-source large language model for research and applications</p>
-    </div>
+  <div class="bg-green-50 dark:bg-green-900/20 p-2 rounded-lg">
+    <h4 class="font-semibold text-green-600 dark:text-green-400 mb-1 text-xs">💡 Advantages</h4>
+    <ul class="text-xs space-y-0.5 opacity-80">
+      <li>Efficient text processing</li>
+      <li>Better understanding of context</li>
+      <li>Enables vector databases</li>
+      <li>Improves AI model performance</li>
+    </ul>
   </div>
+</div>
+
+</div>
+</div>
+
+---
+layout: default
+---
+
+# Retrieval-Augmented Generation (RAG)
+<div class="text-base opacity-80 mb-4">Enhancing AI with External Knowledge</div>
+
+<div class="grid grid-cols-2 gap-4 text-sm">
+<div>
+
+## What is RAG?
+A technique that combines <b>information retrieval</b> with <b>text generation</b> to provide more accurate and up-to-date responses
+
+### How It Works:
+1. 🔍 <b>Query Processing</b> - Understand user question
+2. 📚 <b>Knowledge Retrieval</b> - Search relevant documents
+3. 🧠 <b>Context Integration</b> - Combine retrieved info with AI knowledge
+4. ✍️ <b>Response Generation</b> - Create accurate, informed answer
+
+
+
+</div>
+<div>
+
+## Benefits & Applications
+<div class="space-y-2 mt-2">
+  <div class="bg-green-50 dark:bg-green-900/20 p-2 rounded-lg">
+    <h4 class="font-semibold text-green-600 dark:text-green-400 mb-1 text-xs">🚀 Advantages</h4>
+    <ul class="text-xs space-y-0.5 opacity-80">
+      <li>Up-to-date information access</li>
+      <li>Reduced hallucination</li>
+      <li>Domain-specific knowledge</li>
+      <li>Transparent source citations</li>
+    </ul>
+  </div>
+  <div class="bg-purple-50 dark:bg-purple-900/20 p-2 rounded-lg">
+    <h4 class="font-semibold text-purple-600 dark:text-purple-400 mb-1 text-xs">💼 Use Cases</h4>
+    <ul class="text-xs space-y-0.5 opacity-80">
+      <li>Customer support chatbots</li>
+      <li>Research assistants</li>
+      <li>Document Q&A systems</li>
+      <li>Knowledge management</li>
+    </ul>
+  </div>
+</div>
+
+</div>
+</div>
+
+---
+layout: default
+---
+
+# Vector Databases
+<div class="text-base opacity-80 mb-4">Storing and Searching High-Dimensional Data</div>
+
+<div class="grid grid-cols-2 gap-4 text-sm">
+<div>
+
+## What are Vector Databases?
+Specialized databases designed to store, index, and search high-dimensional vector representations (embeddings) efficiently
+
+### Key Features:
+- 🔢 <b>Vector storage</b> - Optimized for embedding data
+- ⚡ <b>Fast similarity search</b> - Find similar vectors quickly
+- 📊 <b>Scalability</b> - Handle millions of vectors
+- 🎯 <b>Semantic search</b> - Find content by meaning, not just keywords
+
+</div>
+<div>
+
+## Popular Vector Databases
+<div class="space-y-2 mt-2">
+  <div class="bg-blue-50 dark:bg-blue-900/20 p-2 rounded-lg">
+    <h4 class="font-semibold text-blue-600 dark:text-blue-400 mb-1 text-xs">🚀 Leading Solutions</h4>
+    <ul class="text-xs space-y-0.5 opacity-80">
+      <li>Pinecone - Managed vector database</li>
+      <li>Weaviate - Open-source vector DB</li>
+      <li>Qdrant - High-performance vector search</li>
+      <li>Chroma - Embedding database</li>
+    </ul>
+  </div>
+  <div class="bg-green-50 dark:bg-green-900/20 p-2 rounded-lg">
+    <h4 class="font-semibold text-green-600 dark:text-green-400 mb-1 text-xs">💡 Use Cases</h4>
+    <ul class="text-xs space-y-0.5 opacity-80">
+      <li>RAG systems & knowledge bases</li>
+      <li>Recommendation engines</li>
+      <li>Semantic search applications</li>
+      <li>AI-powered content discovery</li>
+    </ul>
+  </div>
+</div>
+
+</div>
 </div>
 
 ---

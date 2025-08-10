@@ -1167,7 +1167,81 @@ AI that can <b>act autonomously</b> to achieve specific goals
 </div>
 
 ---
-layout: default
+layout: center
+class: text-center
+---
+
+# Agentic AI Workflow
+<div class="text-base opacity-80 mb-6">Understanding How Autonomous AI Systems Operate</div>
+
+<div class="flex justify-center">
+  <img src="https://learnopencv.com/wp-content/uploads/2025/02/Knowledge-Processing-and-Interpretation.png" 
+       alt="Knowledge Processing and Interpretation Diagram" 
+       class="w-8/9 h-auto max-h-96 rounded-lg shadow-xl border-2 border-gray-200 dark:border-gray-700">
+</div>
+---
+layout: center
+class: text-center
+---
+
+# Multi Agent System
+<div class="text-base opacity-80 mb-6">Collaborative AI Agents Working Together</div>
+
+<div class="flex justify-center">
+  <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1735243479772/e2c48b8a-4992-42af-b2ec-3d045082d794.png?auto=compress,format&format=webp" 
+       alt="AI and Machine Learning Integration Diagram" 
+       class="w-4/5 h-auto max-h-80 rounded-lg shadow-xl border-2 border-gray-200 dark:border-gray-700">
+</div>
+
+---
+layout: center
+---
+
+# Model Context Protocol (MCP)
+<div class="text-base opacity-80 mb-4">Standardizing AI Model Communication and Context</div>
+
+<div class="grid grid-cols-2 gap-4 text-sm">
+<div>
+
+## What is MCP?
+A standardized protocol that enables AI models to communicate with external tools, databases, and systems while maintaining context and security
+
+### Key Features:
+- 🔗 <b>Standardized Interface</b> - Common protocol for all models
+- 🛡️ <b>Security & Safety</b> - Controlled access to external resources
+- 🔄 <b>Context Preservation</b> - Maintains conversation state
+- 🛠️ <b>Tool Integration</b> - Connects to databases, APIs, services
+
+</div>
+<div>
+
+## Benefits & Applications
+<div class="space-y-2 mt-2">
+  <div class="bg-blue-50 dark:bg-blue-900/20 p-2 rounded-lg">
+    <h4 class="font-semibold text-blue-600 dark:text-blue-400 mb-1 text-xs">🚀 Use Cases</h4>
+    <ul class="text-xs space-y-0.5 opacity-80">
+      <li>AI agent tool access</li>
+      <li>Database querying</li>
+      <li>API integrations</li>
+      <li>File system operations</li>
+    </ul>
+  </div>
+  <div class="bg-green-50 dark:bg-green-900/20 p-2 rounded-lg">
+    <h4 class="font-semibold text-green-600 dark:text-green-400 mb-1 text-xs">💡 Advantages</h4>
+    <ul class="text-xs space-y-0.5 opacity-80">
+      <li>Interoperability</li>
+      <li>Security control</li>
+      <li>Scalable architecture</li>
+      <li>Developer-friendly</li>
+    </ul>
+  </div>
+</div>
+
+</div>
+</div>
+
+---
+layout: center
 ---
 
 # Superintelligence (Future Stage)
@@ -1376,46 +1450,47 @@ layout: default
 ---
 
 # Summary & Key Takeaways
-<div class="text-base opacity-90 mb-4">AI: Key Learnings & Career Opportunities</div>
+<div class="text-sm opacity-90 mb-3">Essential AI Concepts & Future Directions</div>
 
-<div class="grid grid-cols-3 gap-4 text-sm mb-6">
+<div class="grid grid-cols-2 gap-4 text-xs mb-4">
   <div>
-    <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 p-3 rounded mb-3">
-      <b>🔄 AI's Impact</b>
-      <ul class="mt-2 opacity-80">
-        <li>Smart systems in daily life</li>
-        <li>Electronics that learn & adapt</li>
-        <li>Automation & efficiency</li>
+    <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 p-2 rounded mb-2">
+      <b class="text-sm">🧠 Core AI Concepts</b>
+      <ul class="mt-1 opacity-80 space-y-0.5">
+        <li>AI → ML → Deep Learning → Generative AI</li>
+        <li>Supervised, Unsupervised, Reinforcement Learning</li>
+        <li>Neural Networks: CNNs, RNNs, Transformers</li>
+        <li>Large Language Models (LLMs)</li>
       </ul>
     </div>
-    <div class="bg-gradient-to-r from-green-50 to-teal-50 dark:from-green-900/20 dark:to-teal-900/20 p-3 rounded mb-3">
-      <b>📈 Evolution Stages</b>
-      <ul class="mt-2 opacity-80">
-        <li>Rule-based → ML → Deep Learning</li>
-        <li>Generative AI → Agentic AI</li>
-        <li>Superintelligence (future)</li>
+    <div class="bg-gradient-to-r from-green-50 to-teal-50 dark:from-green-900/20 dark:to-teal-900/20 p-2 rounded mb-2">
+      <b class="text-sm">🚀 Modern AI Technologies</b>
+      <ul class="mt-1 opacity-80 space-y-0.5">
+        <li>Prompt Engineering & Embeddings</li>
+        <li>Vector Databases & RAG Systems</li>
+        <li>Agentic AI & Multi-Agent Systems</li>
+        <li>Model Context Protocol (MCP)</li>
       </ul>
     </div>
-    <div class="bg-gradient-to-r from-yellow-50 to-orange-50 dark:from-yellow-900/20 dark:to-orange-900/20 p-3 rounded">
-      <b>⚖️ Ethics Matter</b>
-      <ul class="mt-2 opacity-80">
-        <li>Privacy & bias awareness</li>
-        <li>Responsible development</li>
+    <div class="bg-gradient-to-r from-yellow-50 to-orange-50 dark:from-yellow-900/20 dark:to-orange-900/20 p-2 rounded">
+      <b class="text-sm">🔮 Future Directions</b>
+      <ul class="mt-1 opacity-80 space-y-0.5">
+        <li>Superintelligence & AGI</li>
+        <li>Edge AI & Specialized Hardware</li>
+        <li>AI in Electronics & IoT</li>
+        <li>Ethical AI Development</li>
       </ul>
     </div>
   </div>
-  <div class="col-span-2">
-    <b class="text-lg block mb-2">Career Opportunities</b>
-    <div class="grid grid-cols-2 gap-2">
-      <div class="bg-blue-50 dark:bg-blue-900/20 p-2 rounded"><b>🤖 AI Hardware Engineer</b><br><span class="opacity-70">Design AI chips & processors</span></div>
-      <div class="bg-green-50 dark:bg-green-900/20 p-2 rounded"><b>🌐 IoT Solutions Architect</b><br><span class="opacity-70">Build smart device ecosystems</span></div>
-      <div class="bg-purple-50 dark:bg-purple-900/20 p-2 rounded"><b>⚡ Edge AI Developer</b><br><span class="opacity-70">Optimize AI for devices</span></div>
-      <div class="bg-yellow-50 dark:bg-yellow-900/20 p-2 rounded"><b>🧠 Smart Systems Designer</b><br><span class="opacity-70">Create automation solutions</span></div>
-      <div class="bg-cyan-50 dark:bg-cyan-900/20 p-2 rounded"><b>📊 ML Engineer</b><br><span class="opacity-70">Develop & deploy ML models</span></div>
-      <div class="bg-red-50 dark:bg-red-900/20 p-2 rounded"><b>🧑‍💻 AI Engineer</b><br><span class="opacity-70">Build & integrate AI systems</span></div>
-      <div class="bg-teal-50 dark:bg-teal-900/20 p-2 rounded"><b>🔬 Data Scientist</b><br><span class="opacity-70">Analyze & interpret data</span></div>
-      <div class="bg-gray-50 dark:bg-gray-800 p-2 rounded"><b>🛡️ AI Ethics Specialist</b><br><span class="opacity-70">Ensure responsible AI use</span></div>
-      <div class="bg-pink-50 dark:bg-pink-900/20 p-2 rounded"><b>💡 Prompt Engineer</b><br><span class="opacity-70">Design and optimize prompts for AI models</span></div>
+  <div>
+    <b class="text-base block mb-2">High-Demand Career Paths</b>
+    <div class="grid grid-cols-1 gap-1.5">
+      <div class="bg-blue-50 dark:bg-blue-900/20 p-1.5 rounded text-xs"><b>🤖 AI/ML Engineer</b><br><span class="opacity-70">Build & deploy AI systems</span></div>
+      <div class="bg-green-50 dark:bg-green-900/20 p-1.5 rounded text-xs"><b>📊 Data Scientist</b><br><span class="opacity-70">Analyze data & build ML models</span></div>
+      <div class="bg-purple-50 dark:bg-purple-900/20 p-1.5 rounded text-xs"><b>💡 Prompt Engineer</b><br><span class="opacity-70">Optimize AI model interactions</span></div>
+      <div class="bg-cyan-50 dark:bg-cyan-900/20 p-1.5 rounded text-xs"><b>🔧 AI Infrastructure Engineer</b><br><span class="opacity-70">Design AI hardware & systems</span></div>
+      <div class="bg-red-50 dark:bg-red-900/20 p-1.5 rounded text-xs"><b>🛡️ AI Ethics Specialist</b><br><span class="opacity-70">Ensure responsible AI development</span></div>
+      <div class="bg-teal-50 dark:bg-teal-900/20 p-1.5 rounded text-xs"><b>⚡ Edge AI Developer</b><br><span class="opacity-70">Optimize AI for devices</span></div>
     </div>
   </div>
 </div>
@@ -1448,6 +1523,10 @@ layout: default
       <li><a href="https://bolt.new" target="_blank" class="text-blue-600 underline">Bolt.new</a> – Create stunning apps & websites by chatting with AI. </li>
       <li><a href="https://lovable.dev" target="_blank" class="text-blue-600 underline">Lovable.dev</a> – AI-powered code and content tools</li>
       <li><a href="https://colab.research.google.com" target="_blank" class="text-blue-600 underline">Google Colab</a> – Free Jupyter notebooks in the cloud</li>
+      <li><a href="https://notebooklm.google.com/" target="_blank" class="text-blue-600 underline">Google NotebookLM</a> – AI-powered research and note-taking assistant</li>
+      <li><a href="https://n8n.io/" target="_blank" class="text-blue-600 underline">n8n</a> – Open-source workflow automation platform for AI agents and integrations</li>
+      <li><a href="https://aistudio.google.com/" target="_blank" class="text-blue-600 underline">Google AI Studio</a> – Official Google AI development platform for testing and prototyping</li>
+      <li><a href="https://www.blackbox.ai/" target="_blank" class="text-blue-600 underline">Blackbox AI</a> – AI-powered coding assistant and development tools</li>
       <li><a href="https://huggingface.co/spaces" target="_blank" class="text-blue-600 underline">Hugging Face Spaces</a> – Community AI demos and apps</li>
       <li><a href="https://platform.openai.com/playground" target="_blank" class="text-blue-600 underline">OpenAI Playground</a> – Experiment with language models</li>
     </ul>

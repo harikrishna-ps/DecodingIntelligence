@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "slidev",
     "build": "slidev build",
-    "export": "slidev export"
+    "export": "slidev export",
+    "preview": "slidev build && slidev preview"
   },
   "dependencies": {
     "@slidev/cli": "latest",

@@ -788,57 +788,6 @@ Frozen Lake represents a fundamental reinforcement learning environment where an
 layout: default
 ---
 
-# Generative AI Era
-<div class="text-base opacity-80 mb-4">The Revolution of AI-Powered Content Creation</div>
-
-<div class="grid grid-cols-2 gap-6 text-sm">
-<div>
-
-## What is Generative AI?
-AI systems that can <b>create original, human-like content</b> across multiple modalities, revolutionizing how we interact with technology
-
-### Key Capabilities:
-- 🎨 <b>Create Images</b> from text descriptions
-- ✍️ <b>Write Text</b> like articles and stories
-- 💻 <b>Generate Code</b> in different programming languages
-- 🎵 <b>Make Music</b> and audio content
-- 🎬 <b>Produce Videos</b> from simple prompts
-- 🔬 <b>Help Research</b> and scientific work
-
-
-
-</div>
-<div>
-
-## How It Works
-<div class="space-y-3">
-  <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 p-3 rounded-lg">
-    <h4 class="font-semibold text-blue-600 dark:text-blue-400 mb-1 text-xs">🧠 Core Technology</h4>
-    <p class="text-xs leading-relaxed opacity-80">
-      Uses <b>Large Language Models</b> (LLMs) and <b>Diffusion Models</b> trained on massive datasets to understand patterns and generate human-like responses
-    </p>
-  </div>
-  
-  <div class="bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 p-3 rounded-lg">
-    <h4 class="font-semibold text-green-600 dark:text-green-400 mb-1 text-xs">🚀 Revolutionary Impact</h4>
-    <ul class="text-xs space-y-0.5 opacity-80">
-      <li>• Democratization of creative tools</li>
-      <li>• 10x faster content production</li>
-      <li>• Multilingual content generation</li>
-      <li>• Personalized experiences at scale</li>
-    </ul>
-  </div>
-  
-
-</div>
-
-</div>
-</div>
-
----
-layout: default
----
-
 # Large Language Models (LLMs)
 <div class="text-base opacity-80 mb-4">The Foundation of Modern AI</div>
 
@@ -868,6 +817,66 @@ AI models trained on vast amounts of text data to understand and generate human-
 - <b>Fine-tuning</b> for specific tasks
 - <b>Reinforcement learning</b> from human feedback
 - <b>Continuous improvement</b> through updates
+
+</div>
+</div>
+
+---
+layout: default
+---
+
+# Large Language Model Architecture
+<div class="text-base opacity-80 mb-4">Understanding How LLMs Work</div>
+
+<div class="flex justify-center">
+  <img src="https://microsoft.github.io/Workshop-Interact-with-OpenAI-models/assets/images/llm-001-da6e9df83e520a18f43984ad5118b9a7.png" 
+       alt="Large Language Model Architecture Diagram" 
+       class="w-4/5 h-auto rounded-lg shadow-lg">
+</div>
+
+---
+layout: default
+---
+
+# Generative AI Era
+<div class="text-base opacity-80 mb-4">The Revolution of AI-Powered Content Creation</div>
+
+<div class="grid grid-cols-2 gap-6 text-sm">
+<div>
+
+## What is Generative AI?
+AI systems that can <b>create original, human-like content</b> across multiple modalities, revolutionizing how we interact with technology
+
+### Key Capabilities:
+- 🎨 <b>Create Images</b> from text descriptions
+- ✍️ <b>Write Text</b> like articles and stories
+- 💻 <b>Generate Code</b> in different programming languages
+- 🎵 <b>Make Music</b> and audio content
+- 🎬 <b>Produce Videos</b> from simple prompts
+- 🔬 <b>Help Research</b> and scientific work
+
+</div>
+<div>
+
+## How It Works
+<div class="space-y-3">
+  <div class="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 p-3 rounded-lg">
+    <h4 class="font-semibold text-blue-600 dark:text-blue-400 mb-1 text-xs">🧠 Core Technology</h4>
+    <p class="text-xs leading-relaxed opacity-80">
+      Uses <b>Large Language Models</b> (LLMs) and <b>Diffusion Models</b> trained on massive datasets to understand patterns and generate human-like responses
+    </p>
+  </div>
+  
+  <div class="bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 p-3 rounded-lg">
+    <h4 class="font-semibold text-green-600 dark:text-green-400 mb-1 text-xs">🚀 Revolutionary Impact</h4>
+    <ul class="text-xs space-y-0.5 opacity-80">
+      <li>• Democratization of creative tools</li>
+      <li>• 10x faster content production</li>
+      <li>• Multilingual content generation</li>
+      <li>• Personalized experiences at scale</li>
+    </ul>
+  </div>
+</div>
 
 </div>
 </div>
@@ -1520,6 +1529,7 @@ layout: default
   <div>
     <b>🛠️ Real AI Tools & Sandboxes</b>
     <ul class="list-disc list-inside mt-2 opacity-90">
+      <li><a href="https://cursor.com/" target="_blank" class="text-blue-600 underline">Cursor</a> – AI-powered code editor with intelligent autocomplete and pair programming</li>
       <li><a href="https://bolt.new" target="_blank" class="text-blue-600 underline">Bolt.new</a> – Create stunning apps & websites by chatting with AI. </li>
       <li><a href="https://lovable.dev" target="_blank" class="text-blue-600 underline">Lovable.dev</a> – AI-powered code and content tools</li>
       <li><a href="https://colab.research.google.com" target="_blank" class="text-blue-600 underline">Google Colab</a> – Free Jupyter notebooks in the cloud</li>
